@@ -40,8 +40,9 @@ if valid_move?(board,index) == true
   display_board(board)
 else puts "Make another Move"
   display_board(board)
-end
+
 until counter = 10
 break
+end
 end
 end
