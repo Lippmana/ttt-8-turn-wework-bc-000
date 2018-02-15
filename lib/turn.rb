@@ -36,9 +36,8 @@ index = input_to_index(input)
 
 if valid_move?(board,index) == true
   move(board,index,"X")
-  break
   display_board(board)
+  break
 end
-
 end
 end
