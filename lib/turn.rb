@@ -29,6 +29,7 @@ end
 
 #a turn
 def turn(board)
+  counter = 0
   loop do
   puts "Please enter 1-9:"
   input = gets.strip
@@ -40,5 +41,7 @@ if valid_move?(board,index) == true
 else puts "Make another Move"
   display_board(board)
 end
+until counter = 10
+break
 end
 end
